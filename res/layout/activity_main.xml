@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:layout_weight="1"
+    android:background="#E0FFFF">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Enter Weightage"
+        android:textSize="20sp" />
+   <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+            </Spinner>
+            <EditText
+                android:id="@+id/etWeight1"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="%"
+                android:layout_width="50dp"
+                android:layout_marginRight="20dp">
+            </EditText>
+            </TableRow>
+    </TableLayout>
+   <TableLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" >
+       <TableRow
+            android:id="@+id/buttonRow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <Button 
+                android:layout_width="150dp"
+       			android:layout_height="wrap_content"
+       			android:id="@+id/btnAddRow"
+       			android:text="Add criteria"
+       			android:layout_marginLeft="20dp"
+       			android:layout_marginRight="20dp"
+       			android:background="#C0C0C0"/>
+            <Button 
+                android:layout_width="150dp"
+       			android:layout_height="wrap_content"
+       			android:id="@+id/btnCalculate"
+       			android:text="Enter Scores"
+       			android:layout_marginRight="20dp"
+       			android:background="#C0C0C0"/>
+            </TableRow>
+   </TableLayout>
+</LinearLayout>
+</ScrollView>

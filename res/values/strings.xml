@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Grade Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="criteria">
+        <item>--Select--</item>
+        <item>Exams</item>
+        <item>Quizzes</item>
+        <item>Assignments</item>
+        <item>Portfolio</item>
+        <item>Graduate Presentation</item>
+        <item>Graduate Project</item>
+        <item>Attendance</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
+    <string name="title_activity_calculator">Calculator</string>
+    <string name="title_activity_report">Report</string>
+
+</resources>
